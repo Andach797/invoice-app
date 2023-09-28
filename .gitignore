@@ -1,0 +1,54 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# .terraform directory contains local configurations and cached plugins
+.terraform/
+.terraform.lock.hcl
+
+# Terragrunt cache and configuration
+.terragrunt-cache/
+terragrunt-debug.tfvars
+backend.tf
+# Ignore override files as they can contain sensitive details and are typically used for local testing
+override.tf
+_override.tf
+*_override.tf
+override.tf.json
+_override.tf.json
+*_override.tf.json
+
+# Ignore sensitive information in tfvars files
+*.auto.tfvars
+secrets.tfvars
+
+# Ignore local .env files used for environment-specific configurations
+.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.backup
+*.log
+*.bak
+*.swp
+*.old
+.DS_Store
+
+# Binary files, swap files, etc.
+*.bin
+*.swp
+*.swo
+*.rej
+
+# OS generated
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
