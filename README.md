@@ -41,8 +41,8 @@ terragrunt run-all apply
 terragrunt run-all destroy
 ````
 ##
-![Invoice App Diagram](URhttps://github.com/Andach797/invoice-app/blob/main/invoice-app.jpgL)
-https://github.com/Andach797/invoice-app/blob/main/invoice-app.jpg
+![Invoice App Diagram](https://github.com/Andach797/invoice-app/blob/main/invoice-app.jpg)
+
 ## Components
 ## Terraform Modules
 - S3 
